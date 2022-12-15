@@ -8,12 +8,12 @@ namespace ConsoleApp4
 {
     internal class EmployeeWadgeUC2
     {
-         public static void EmployeeUC2(int empCheck)
+         public static void EmployeeUC2(int empCheck2)
         {
             int IS_FULL_TIME = 1, EMP_RATE_PER_HOUR = 20;
             int empWadge = 0, empHr = 0;
 
-            if (empCheck == IS_FULL_TIME)
+            if (empCheck2 == IS_FULL_TIME)
             {
                 empHr=8;
             }
